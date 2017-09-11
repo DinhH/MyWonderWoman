@@ -22,6 +22,25 @@ body {
 
 /* Site header. */
 
+#dear{
+  font-weight: normal;
+  font-family:'Marck Script';
+  font-size: 25px;
+}
+#letter{
+  font-family:'Marck Script';
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 200%;
+}
+#sign{
+  font-family:'Marck Script';
+  font-size: 25px;
+  position: relative;
+  line-height: 90%;
+  left: 75%;
+}
+
 .sitebanner {
     position: relative;
     font-size: 18;
@@ -40,7 +59,7 @@ body {
 }
 
 .sitetitle {
-    font-family: 'Merriweather'; /*Futura, Europa, Merriweather*/
+    font-family: 'Open Sans'; /*Futura, Europa, Open Sans*/
     font-weight: 300;
     font-size: 4em;
     padding-left: 10px; /* Hack to dodge :hover issue. */
@@ -88,8 +107,8 @@ body {
 }
 
 .postsummary {
-    font-family: Merriweather;
-    font-weight: 300;
+    font-family:'Open Sans';
+    font-size: 15px;
 }
 
 .post {
@@ -261,5 +280,5 @@ footer {
 .photography img {
         float:left;
 /*        padding-bottom:20px;
-*/    
+*/
     }
