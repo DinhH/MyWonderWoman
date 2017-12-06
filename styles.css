@@ -15,7 +15,7 @@ html { /* This stuff is for the sticky footer. */
 }
 
 body {
-    background-color:#fafafa;
+    background-color:#ede8e8;
     font-family:'Open Sans';
     margin: 20px auto 100px auto; /* For sticky footer. */
 }
@@ -136,7 +136,7 @@ a:hover { /* Hover style: transition to orange. Cool! */
     -webkit-transition:color .2s ease-in-out;
     -moz-transition:color .2s ease-in-out;
     transition:color .2s ease-in-out;
-    color: orange;
+    color: #edb46f;
 }
 
 /* Generic to all content. */
@@ -272,8 +272,8 @@ footer {
     color: grey;
     font-size: .7em;
     height: 30px;
-    position: absolute;
     padding-top:30px;
+    position: absolute;
 }
 
 
